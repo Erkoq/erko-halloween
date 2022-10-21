@@ -17,8 +17,3 @@ server_scripts {
     'server/*.lua',
 	'config.lua'
 }
-escrow_ignore {
-  "config.lua",
-}
-
-shared_script'@ox_lib/init.lua'
