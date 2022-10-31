@@ -1,4 +1,5 @@
 Erko = {}
+daliMoze = false
 
 Erko.DEBUG = true
 Erko.HashPed = "u_m_y_zombie_01"

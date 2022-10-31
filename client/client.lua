@@ -74,6 +74,7 @@ function findmyped(CEKENZI)
             if GetPedCauseOfDeath(pedforattack) == 'WEAPON_RUN_OVER_BY_CAR' or GetPedCauseOfDeath(pedforattack) == 'WEAPON_RAMMED_BY_CAR' then 
                 ESX.ShowNotification(Erko.Lang[1])
                 else
+            daliMoze = true
             TriggerServerEvent("giverewardhalloween")
             findmyped(Erko.WaitForNewAttackFromPed)
                 end
